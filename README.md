@@ -13,13 +13,11 @@ Welcome to the Ann Arbor restaurant app - your go-to solution for discovering th
 
 ## About The Project
 
-Finding the perfect place to eat can be challenging, especially when you're looking to avoid waiting in line. Restaurant Recommender provides you with real-time data on how busy restaurants are, along with ratings, reviews, and relevant details to help you make an informed decision.
+Finding the perfect place to eat can be challenging, especially when you're looking to avoid waiting in line. AAEats provides you with real-time data on how busy restaurants are, along with ratings, reviews, and relevant details to help you make an informed decision.
 
 ![Product Name Screen Shot](images/screenshot.png)
 
 ### Built With
-
-This section lists any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
