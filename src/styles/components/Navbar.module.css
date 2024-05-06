@@ -1,0 +1,83 @@
+/* Navbar.module.css */
+
+/* Base styles for the navigation bar */
+.navbar {
+    background-color: #00274C;
+    overflow: hidden;
+}
+
+.navbar h1 {
+    float: left;
+    display: block;
+    color: #FFCB05;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar p {
+    float: left;
+    display: block;
+    color: #FFCB05;
+    padding: 0px 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Style for the navigation links */
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ensure SVG fits within the element */
+    color: #FFCB05;
+    text-decoration: none;
+}
+
+/* Background images for navigation links */
+.navbar a.home {
+    background-image: url('../../assets/home.svg'); /* Replace 'about.svg' with your SVG file path */
+}
+
+.navbar a.user {
+    background-image: url('../../assets/user.svg'); /* Replace 'about.svg' with your SVG file path */
+}
+
+.navbar a.location {
+    background-image: url('../../assets/pin.svg'); /* Replace 'about.svg' with your SVG file path */
+}
+
+
+/* Hover styles */
+.navbar a.home:hover {
+    background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #FFCB05;
+}
+
+.navbar a.user:hover {
+    background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #FFCB05;
+}
+
+.navbar a.location:hover {
+    background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #FFCB05;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
