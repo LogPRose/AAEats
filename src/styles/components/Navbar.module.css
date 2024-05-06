@@ -57,17 +57,17 @@
 /* Hover styles */
 .navbar a.home:hover {
     background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #FFCB05;
+    background-color: #00274C;
 }
 
 .navbar a.user:hover {
     background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #FFCB05;
+    background-color: #00274C;
 }
 
 .navbar a.location:hover {
     background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #FFCB05;
+    background-color: #00274C;
 }
 
 .container {
