@@ -52,7 +52,21 @@
 .navbar a.location {
     background-image: url('../../assets/pin.svg'); /* Replace 'about.svg' with your SVG file path */
 }
+/* Active styles */
+.navbar a.homeActive {
+    background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #00274C;
+}
 
+.navbar a.userActive {
+    background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #00274C;
+}
+
+.navbar a.locationActive {
+    background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
+    background-color: #00274C;
+}
 
 /* Hover styles */
 .navbar a.home:hover {
