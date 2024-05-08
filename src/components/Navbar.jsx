@@ -24,9 +24,9 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <p>Ann Arbor Eats!</p>
-        <input alt="Home" type="image" src={styles.home} onClick={() => handleRoute('/')}/>
-        <input alt="User Account" type="image" src={styles.user} onClick={() => handleRoute('/user')}/> 
-        <input alt="Saved Locations" type="image" src={styles.location} onClick={() => handleRoute('/location')}/>
+        <img src={styles.home} onClick={() => handleRoute('/')}/>
+        <a src={styles.user} href="/user" alt="User Account"/>
+        <a src={styles.location} href="/locations" alt="Saved Locations"/>
       </div>
     </div>
   );

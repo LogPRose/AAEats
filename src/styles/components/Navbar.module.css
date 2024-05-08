@@ -25,7 +25,7 @@
 }
 
 /* Style for the navigation links */
-.navbar a {
+.navbar img {
     float: right;
     display: block;
     text-align: center;
@@ -41,45 +41,45 @@
 }
 
 /* Background images for navigation links */
-.navbar a.home {
+.navbar img.home {
     background-image: url('../../assets/home.svg'); /* Replace 'about.svg' with your SVG file path */
 }
 
-.navbar a.user {
+.navbar img.user {
     background-image: url('../../assets/user.svg'); /* Replace 'about.svg' with your SVG file path */
 }
 
-.navbar a.location {
+.navbar img.location {
     background-image: url('../../assets/pin.svg'); /* Replace 'about.svg' with your SVG file path */
 }
 /* Active styles */
-.navbar a.homeActive {
+.navbar img.activeHome {
     background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
 
-.navbar a.userActive {
+.navbar img.activeUser {
     background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
 
-.navbar a.locationActive {
+.navbar img.activeLocation {
     background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
 
 /* Hover styles */
-.navbar a.home:hover {
+.navbar img.home:hover {
     background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
 
-.navbar a.user:hover {
+.navbar img.user:hover {
     background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
 
-.navbar a.location:hover {
+.navbar img.location:hover {
     background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
     background-color: #00274C;
 }
