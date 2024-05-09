@@ -41,48 +41,7 @@
 }
 
 /* Background images for navigation links */
-.navbar img.home {
-    background-image: url('../../assets/home.svg'); /* Replace 'about.svg' with your SVG file path */
-}
 
-.navbar img.user {
-    background-image: url('../../assets/user.svg'); /* Replace 'about.svg' with your SVG file path */
-}
-
-.navbar img.location {
-    background-image: url('../../assets/pin.svg'); /* Replace 'about.svg' with your SVG file path */
-}
-/* Active styles */
-.navbar img.activeHome {
-    background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
-
-.navbar img.activeUser {
-    background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
-
-.navbar img.activeLocation {
-    background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
-
-/* Hover styles */
-.navbar img.home:hover {
-    background-image: url('../../assets/home-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
-
-.navbar img.user:hover {
-    background-image: url('../../assets/user-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
-
-.navbar img.location:hover {
-    background-image: url('../../assets/pin-hover.svg'); /* Replace 'about.svg' with your SVG file path */
-    background-color: #00274C;
-}
 
 .container {
     width: auto;

@@ -24,9 +24,9 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.container}>
         <p>Ann Arbor Eats!</p>
-        <img src={styles.home} onClick={() => handleRoute('/')}/>
-        <a src={styles.user} href="/user" alt="User Account"/>
-        <a src={styles.location} href="/locations" alt="Saved Locations"/>
+        <img src="../assets/home.svg" onClick={() => handleRoute('/')}/>
+        <img src="../assets/user.svg" onClick={() => handleRoute('/user')}/>
+        <img src="../assets/location.svg" onClick={() => handleRoute('/location')}/>
       </div>
     </div>
   );
